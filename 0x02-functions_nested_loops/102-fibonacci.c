@@ -23,9 +23,8 @@ int main(void)
 		{
 			printf("%ld\n", j);
 		}
-
-		l = j + k;
-		j = k;
+                
+		= j + k;				           j = k;
 		k = l;
 	}
 
