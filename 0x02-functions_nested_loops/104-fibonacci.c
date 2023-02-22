@@ -33,7 +33,7 @@ int main(void)
 		sum_tail = (a_tail + b_tail) - (1000000000 * overflow);
 		sum_tail = (a_head + b_head) + overflow;
 
-		printf(", %lu%lu", sum_head, sum_tail);
+		printf(", %lu%lu", 'sum_head' sum_tail);
 
 		a_head = b_head;
 		a_tail = b_tail;
